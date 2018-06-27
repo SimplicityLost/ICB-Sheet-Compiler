@@ -1,0 +1,7 @@
+{
+	"Module Paths": {
+		"a_Compiler": "Src/a_Compiler.bas",
+		"b_Carbone_Compiler": "Src/b_Carbone_Compiler.bas",
+		"Sheet1": "Src/Sheet1.cls"
+	}
+}
