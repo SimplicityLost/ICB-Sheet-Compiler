@@ -62,7 +62,7 @@ Public Function Consolidate()
                  
                 Set xlsFiles = ActiveWorkbook
                  
-                'r = wsMaster.Sheets("Output").UsedRange.Rows.Count
+                
 
                 ur = xlsFiles.Sheets("DATA").UsedRange.Rows.Count
                 n = xlsFiles.Sheets("DATA").Range("J:J").Cells.SpecialCells(xlCellTypeConstants).Count
@@ -211,7 +211,6 @@ Function OldConsolidate()
                 Set xlsFiles = ActiveWorkbook
                  
 
-                'ur = Split(xlsFiles.Sheets("DETAIL").Range("C:C").SpecialCells(xlCellTypeLastCell).Address(True, False), "$")(1)
                 
                 Dim colnum
                 Set findcol = xlsFiles.Sheets("Detail").Range("A1:CC6").Find("Grand Total", LookIn:=xlValues, SearchFormat:=False)
